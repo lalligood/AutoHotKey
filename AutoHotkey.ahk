@@ -63,12 +63,12 @@ return
 
 ;** END SPOTIFY VOLUME/PLAYBACK CONTROL **
 
-; <Ctrl>-<Shift>-C will take any text in clipboard & search in Google
+; <Ctrl>-<Shift>-C will take any text in clipboard & search in DuckDuckGo
 ^+c::
 {
 Send, ^c
 Sleep 50
-Run, http://www.google.com/search?q=%clipboard%
+Run, https://duckduckgo.com/?q=%clipboard%
 Return
 }
 
