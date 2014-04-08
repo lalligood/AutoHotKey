@@ -98,4 +98,12 @@ SetTitleMatchMode 2
 	Send, scp lalligood@12.164.113.103:~/txdata/CS/
 }
 
+; <Ctrl>-<Shift>-/ to login in rx30
+^+/::
+{
+;	Send, tds0008@rx30.com`nuFLg4t0rs`n
+	Send, tds0008@rx30.com`nvGMh5u1st`n
+	Return
+}
+
 ;** END WORK SPECIFIC SHORTCUTS **
