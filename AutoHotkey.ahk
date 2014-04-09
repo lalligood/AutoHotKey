@@ -96,6 +96,7 @@ SetTitleMatchMode 2
 ^+,::
 {
 	Send, scp lalligood@12.164.113.103:~/txdata/CS/
+	Return
 }
 
 ; <Ctrl>-<Shift>-/ to login in rx30
