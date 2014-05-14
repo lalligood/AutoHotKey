@@ -88,6 +88,13 @@ SetTitleMatchMode 2
 	Return
 }
 
+; <Win>-V to run GVim
+#v::
+{
+	Run "C:\Program Files (x86)\Vim\vim74\GVim.exe"
+	Return
+}
+
 ;** END CUSTOM GENERAL WINDOWS FUNCTIONALITY ENHANCEMENTS **
 
 ;** BEGIN WORK SPECIFIC SHORTCUTS **
@@ -103,7 +110,8 @@ SetTitleMatchMode 2
 ^+/::
 {
 ;	Send, tds0008@rx30.com`nuFLg4t0rs`n
-	Send, tds0008@rx30.com`nvGMh5u1st`n
+;	Send, tds0008@rx30.com`nvGMh5u1st`n
+	Send, tds0008@rx30.com`nwHNi6v2tu`n
 	Return
 }
 
