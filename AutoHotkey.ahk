@@ -95,6 +95,16 @@ SetTitleMatchMode 2
     Return
 }
 
+; Prevent <Win>-<= or <Win>-=> from altering the size/location of windows
+#Left::
+{
+    Return
+}
+#Right::
+{
+    Return
+}
+
 ;** END CUSTOM GENERAL WINDOWS FUNCTIONALITY ENHANCEMENTS **
 
 ;** BEGIN WORK SPECIFIC SHORTCUTS **
