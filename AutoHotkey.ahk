@@ -130,4 +130,11 @@ SetTitleMatchMode 2
     Return
 }
 
+; <Ctrl>-<Shift>-; to do java statement
+^+;::
+{
+	Send, java -jar CentralSiteManager.jar -
+	Return
+}
+
 ;** END WORK SPECIFIC SHORTCUTS **
