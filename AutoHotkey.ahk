@@ -32,7 +32,7 @@ SetTitleMatchMode 2
     winactivate, ahk_class SpotifyMainWindow
     Sleep 250
     Send, ^{Left},
-    Sleep 250
+    Sleep 100
     WinMinimize, ahk_class SpotifyMainWindow
     WinHide, ahk_class SpotifyMainWindow
     DetectHiddenWindows, Off
@@ -56,7 +56,7 @@ SetTitleMatchMode 2
     winactivate, ahk_class SpotifyMainWindow
     Sleep 250
     Send, ^{Right},
-    Sleep 250
+    Sleep 100
     WinMinimize, ahk_class SpotifyMainWindow
     WinHide, ahk_class SpotifyMainWindow
     DetectHiddenWindows, Off
@@ -80,7 +80,7 @@ SetTitleMatchMode 2
     winactivate, ahk_class SpotifyMainWindow
     Sleep 250
     Send, {Space},
-    Sleep 250
+    Sleep 100
     WinMinimize, ahk_class SpotifyMainWindow
     WinHide, ahk_class SpotifyMainWindow
     DetectHiddenWindows, Off
@@ -105,7 +105,7 @@ SetTitleMatchMode 2
     winactivate, ahk_class SpotifyMainWindow
     Sleep 250
     Send, ^{Up},
-    Sleep 250
+    Sleep 100
     WinMinimize, ahk_class SpotifyMainWindow
     WinHide, ahk_class SpotifyMainWindow
     DetectHiddenWindows, Off
@@ -129,7 +129,7 @@ SetTitleMatchMode 2
     winactivate, ahk_class SpotifyMainWindow
     Sleep 250
     Send, ^{Down},
-    Sleep 250
+    Sleep 100
     WinMinimize, ahk_class SpotifyMainWindow
     WinHide, ahk_class SpotifyMainWindow
     DetectHiddenWindows, Off
