@@ -22,7 +22,7 @@ SetTitleMatchMode 2
 {
     WinShow, ahk_class SpotifyMainWindow
     winactivate, ahk_class SpotifyMainWindow
-    Send, ^{Left},
+    Send, {Esc}^{Left},
     DetectHiddenWindows, Off
     return
 }
@@ -30,8 +30,8 @@ SetTitleMatchMode 2
 {
     WinShow, ahk_class SpotifyMainWindow
     winactivate, ahk_class SpotifyMainWindow
-    Sleep 250
-    Send, ^{Left},
+    Sleep 100
+    Send, {Esc}^{Left},
     Sleep 100
     WinMinimize, ahk_class SpotifyMainWindow
     WinHide, ahk_class SpotifyMainWindow
@@ -46,7 +46,7 @@ SetTitleMatchMode 2
 {
     WinShow, ahk_class SpotifyMainWindow
     winactivate, ahk_class SpotifyMainWindow
-    Send, ^{Right},
+    Send, {Esc}^{Right},
     DetectHiddenWindows, Off
     return
 }
@@ -54,8 +54,8 @@ SetTitleMatchMode 2
 {
     WinShow, ahk_class SpotifyMainWindow
     winactivate, ahk_class SpotifyMainWindow
-    Sleep 250
-    Send, ^{Right},
+    Sleep 100
+    Send, {Esc}^{Right},
     Sleep 100
     WinMinimize, ahk_class SpotifyMainWindow
     WinHide, ahk_class SpotifyMainWindow
@@ -70,7 +70,7 @@ SetTitleMatchMode 2
 {
     WinShow, ahk_class SpotifyMainWindow
     winactivate, ahk_class SpotifyMainWindow
-    Send, {Space},
+    Send, {Esc}{Space},
     DetectHiddenWindows, Off
     return
 }
@@ -78,8 +78,8 @@ SetTitleMatchMode 2
 {
     WinShow, ahk_class SpotifyMainWindow
     winactivate, ahk_class SpotifyMainWindow
-    Sleep 250
-    Send, {Space},
+    Sleep 100
+    Send, {Esc}{Space},
     Sleep 100
     WinMinimize, ahk_class SpotifyMainWindow
     WinHide, ahk_class SpotifyMainWindow
@@ -95,7 +95,7 @@ SetTitleMatchMode 2
 {
     WinShow, ahk_class SpotifyMainWindow
     winactivate, ahk_class SpotifyMainWindow
-    Send, ^{Up},
+    Send, {Esc}^{Up},
     DetectHiddenWindows, Off
     return
 }
@@ -103,8 +103,8 @@ SetTitleMatchMode 2
 {
     WinShow, ahk_class SpotifyMainWindow
     winactivate, ahk_class SpotifyMainWindow
-    Sleep 250
-    Send, ^{Up},
+    Sleep 100
+    Send, {Esc}^{Up},
     Sleep 100
     WinMinimize, ahk_class SpotifyMainWindow
     WinHide, ahk_class SpotifyMainWindow
@@ -119,7 +119,7 @@ SetTitleMatchMode 2
 {
     WinShow, ahk_class SpotifyMainWindow
     winactivate, ahk_class SpotifyMainWindow
-    Send, ^{Down},
+    Send, {Esc}^{Down},
     DetectHiddenWindows, Off
     return
 }
@@ -127,8 +127,8 @@ SetTitleMatchMode 2
 {
     WinShow, ahk_class SpotifyMainWindow
     winactivate, ahk_class SpotifyMainWindow
-    Sleep 250
-    Send, ^{Down},
+    Sleep 100
+    Send, {Esc}^{Down},
     Sleep 100
     WinMinimize, ahk_class SpotifyMainWindow
     WinHide, ahk_class SpotifyMainWindow
