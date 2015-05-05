@@ -138,6 +138,32 @@ SetTitleMatchMode 2
 
 ;** END SPOTIFY VOLUME/PLAYBACK CONTROL **
 
+;** BEGIN AMAZON VOLUME/PLAYBACK CONTROL **
+; <Ctrl>-F9 for pause
+^F9::
+    DetectHiddenWindows, On
+    IfWinActive, ahk_class Amazon Music
+{
+    WinShow, ahk_class Amazon Music
+    winactivate, ahk_class Amazon Music
+    Send, {Esc}{Space},
+    DetectHiddenWindows, Off
+    return
+}
+    IfWinNotActive, ahk_class Amazon Music
+{
+    WinShow, ahk_class Amazon Music
+    winactivate, ahk_class Amazon Music
+    Sleep 100
+    Send, {Esc}{Space},
+    Sleep 100
+    WinMinimize, ahk_class Amazon Music
+    WinHide, ahk_class Amazon Music
+    DetectHiddenWindows, Off
+    return
+}
+;** END AMAZON VOLUME/PLAYBACK CONTROL **
+
 ;** BEGIN CUSTOM GENERAL WINDOWS FUNCTIONALITY ENHANCEMENTS **
 
 ; <Ctrl>-<Shift>-C will take any text in clipboard & search in DuckDuckGo
