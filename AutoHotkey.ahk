@@ -70,7 +70,7 @@ SetTitleMatchMode 2
 {
     WinShow, ahk_class SpotifyMainWindow
     winactivate, ahk_class SpotifyMainWindow
-    Send, {Esc}{Space},
+    Send, {Space}
     DetectHiddenWindows, Off
     return
 }
@@ -79,14 +79,13 @@ SetTitleMatchMode 2
     WinShow, ahk_class SpotifyMainWindow
     winactivate, ahk_class SpotifyMainWindow
     Sleep 100
-    Send, {Esc}{Space},
+    Send, {Space}
     Sleep 100
     WinMinimize, ahk_class SpotifyMainWindow
     WinHide, ahk_class SpotifyMainWindow
     DetectHiddenWindows, Off
     return
 }
-
 
 ; <Win>-F11 for volume up
 #F11::
