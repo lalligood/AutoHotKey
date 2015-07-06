@@ -11,129 +11,24 @@
 ; Note: From now on whenever you run AutoHotkey directly, this script
 ; will be loaded.  So feel free to customize it to suit your needs.
 
-;** START SPOTIFY VOLUME/PLAYBACK CONTROL **
-
 SetTitleMatchMode 2
 
+;** START SPOTIFY VOLUME/PLAYBACK CONTROL **
+
 ; <Win>-F7 for previous track
-#F7::
-    DetectHiddenWindows, On
-    IfWinActive, ahk_class SpotifyMainWindow
-{
-    WinShow, ahk_class SpotifyMainWindow
-    winactivate, ahk_class SpotifyMainWindow
-    Send, {Esc}^{Left},
-    DetectHiddenWindows, Off
-    return
-}
-    IfWinNotActive, ahk_class SpotifyMainWindow
-{
-    WinShow, ahk_class SpotifyMainWindow
-    winactivate, ahk_class SpotifyMainWindow
-    Sleep 100
-    Send, {Esc}^{Left},
-    Sleep 100
-    WinMinimize, ahk_class SpotifyMainWindow
-    WinHide, ahk_class SpotifyMainWindow
-    DetectHiddenWindows, Off
-    return
-}
+#F7::Media_Prev
 
 ; <Win>-F8 for next track
-#F8::
-    DetectHiddenWindows, On
-    IfWinActive, ahk_class SpotifyMainWindow
-{
-    WinShow, ahk_class SpotifyMainWindow
-    winactivate, ahk_class SpotifyMainWindow
-    Send, {Esc}^{Right},
-    DetectHiddenWindows, Off
-    return
-}
-    IfWinNotActive, ahk_class SpotifyMainWindow
-{
-    WinShow, ahk_class SpotifyMainWindow
-    winactivate, ahk_class SpotifyMainWindow
-    Sleep 100
-    Send, {Esc}^{Right},
-    Sleep 100
-    WinMinimize, ahk_class SpotifyMainWindow
-    WinHide, ahk_class SpotifyMainWindow
-    DetectHiddenWindows, Off
-    return
-}
+#F8::Media_Next
 
 ; <Win>-F9 for pause
-#F9::
-    DetectHiddenWindows, On
-    IfWinActive, ahk_class SpotifyMainWindow
-{
-    WinShow, ahk_class SpotifyMainWindow
-    winactivate, ahk_class SpotifyMainWindow
-    Send, {Space}
-    DetectHiddenWindows, Off
-    return
-}
-    IfWinNotActive, ahk_class SpotifyMainWindow
-{
-    WinShow, ahk_class SpotifyMainWindow
-    winactivate, ahk_class SpotifyMainWindow
-    Sleep 100
-    Send, {Space}
-    Sleep 100
-    WinMinimize, ahk_class SpotifyMainWindow
-    WinHide, ahk_class SpotifyMainWindow
-    DetectHiddenWindows, Off
-    return
-}
-
-; <Win>-F11 for volume up
-#F11::
-    DetectHiddenWindows, On
-    IfWinActive, ahk_class SpotifyMainWindow
-{
-    WinShow, ahk_class SpotifyMainWindow
-    winactivate, ahk_class SpotifyMainWindow
-    Send, {Esc}^{Up},
-    DetectHiddenWindows, Off
-    return
-}
-    IfWinNotActive, ahk_class SpotifyMainWindow
-{
-    WinShow, ahk_class SpotifyMainWindow
-    winactivate, ahk_class SpotifyMainWindow
-    Sleep 100
-    Send, {Esc}^{Up},
-    Sleep 100
-    WinMinimize, ahk_class SpotifyMainWindow
-    WinHide, ahk_class SpotifyMainWindow
-    DetectHiddenWindows, Off
-    return
-}
+#F9::Media_Play_Pause
 
 ; <Win>-F10 for volume down
-#F10::
-    DetectHiddenWindows, On
-    IfWinActive, ahk_class SpotifyMainWindow
-{
-    WinShow, ahk_class SpotifyMainWindow
-    winactivate, ahk_class SpotifyMainWindow
-    Send, {Esc}^{Down},
-    DetectHiddenWindows, Off
-    return
-}
-    IfWinNotActive, ahk_class SpotifyMainWindow
-{
-    WinShow, ahk_class SpotifyMainWindow
-    winactivate, ahk_class SpotifyMainWindow
-    Sleep 100
-    Send, {Esc}^{Down},
-    Sleep 100
-    WinMinimize, ahk_class SpotifyMainWindow
-    WinHide, ahk_class SpotifyMainWindow
-    DetectHiddenWindows, Off
-    return
-}
+#F10::Volume_Down
+
+; <Win>-F11 for volume up
+#F11::Volume_Up
 
 ;** END SPOTIFY VOLUME/PLAYBACK CONTROL **
 
