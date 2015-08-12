@@ -138,4 +138,11 @@ SetTitleMatchMode 2
 	Return
 }
 
+; <Ctrl>-<Shift>-/ to login in ReportsRx
+^+z::
+{
+    Send, ReportRx30{!}
+    Return
+}
+
 ;** END WORK SPECIFIC SHORTCUTS **
