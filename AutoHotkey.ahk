@@ -141,7 +141,7 @@ SetTitleMatchMode 2
 ; <Ctrl>-<Shift>-/ to login in ReportsRx
 ^+z::
 {
-    Send, ReportRx30{!}
+    Send, ReportsRx30{!}`r
     Return
 }
 
