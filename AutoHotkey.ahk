@@ -90,12 +90,20 @@ SetTitleMatchMode 2
     Return
 }
 
-; Prevent <Win>-<= or <Win>-=> from altering the size/location of windows
-#Left::
+; Prevent <Ctrl><Win><Arrow> from altering the size/location of windows
+#^Left::
 {
     Return
 }
-#Right::
+#^Right::
+{
+    Return
+}
+#^Up::
+{
+    Return
+}
+#^Down::
 {
     Return
 }
@@ -127,7 +135,8 @@ SetTitleMatchMode 2
     ;Send, tds0008@rx30.com`nePVq4d0bc`n
     ;Send, tds0008@rx30.com`nfQWr5e1cd`n
     ;Send, tds0008@rx30.com`ngRYs6f2de`n
-    Send, tds0008@rx30.com`nhSZt7g3ef`n
+    ;Send, tds0008@rx30.com`nhSZt7g3ef`n
+    Send, tds0008@rx30.com`niTAu8h4fg`n
     Return
 }
 
