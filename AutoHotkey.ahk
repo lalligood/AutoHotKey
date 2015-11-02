@@ -136,7 +136,8 @@ SetTitleMatchMode 2
     ;Send, tds0008@rx30.com`nfQWr5e1cd`n
     ;Send, tds0008@rx30.com`ngRYs6f2de`n
     ;Send, tds0008@rx30.com`nhSZt7g3ef`n
-    Send, tds0008@rx30.com`niTAu8h4fg`n
+    ;Send, tds0008@rx30.com`niTAu8h4fg`n
+    Send, tds0008@rx30.com`njUBv9i5gh`n
     Return
 }
 
