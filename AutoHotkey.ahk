@@ -137,7 +137,12 @@ SetTitleMatchMode 2
     ;Send, tds0008@rx30.com`ngRYs6f2de`n
     ;Send, tds0008@rx30.com`nhSZt7g3ef`n
     ;Send, tds0008@rx30.com`niTAu8h4fg`n
-    Send, tds0008@rx30.com`njUBv9i5gh`n
+    ;Send, tds0008@rx30.com`njUBv9i5gh`n
+    ;Send, tds0008@rx30.com`nkVCw0j6hi`n
+    ;Send, tds0008@rx30.com`nlWDx1k7ij`n
+    ;Send, tds0008@rx30.com`nmXEy2l8jk`n
+    ;Send, tds0008@rx30.com`nnYFz3m9kl`n
+    Send, tds0008@rx30.com`noZGa4n0lm`n
     Return
 }
 
@@ -148,7 +153,7 @@ SetTitleMatchMode 2
 	Return
 }
 
-; <Ctrl>-<Shift>-/ to login in ReportsRx
+; <Ctrl>-<Shift>-z to login in ReportsRx
 ^+z::
 {
     Send, ReportsRx30{!}`r
