@@ -155,10 +155,24 @@ SetTitleMatchMode 2
 	Return
 }
 
-; <Ctrl>-<Shift>-z to login in ReportsRx
+; <Ctrl>-<Shift>-z to login in ReportRx
 ^+z::
 {
     Send, ReportsRx30{!}`r
+    Return
+}
+
+; <Ctrl>-<Shift>-l show ReportRx logfile
+^+l::
+{
+    Send, less {+}F rx30rpt.log`r
+    Return
+}
+
+; <Ctrl>-<Shift>-w show number of pending ReportRx records
+^+w::
+{
+    Send, ls ~/rptrx | wc -l`r
     Return
 }
 
