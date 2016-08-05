@@ -69,8 +69,8 @@ SetTitleMatchMode 2
     Return
 }
 
-; <Win>-X to run Command Prompt
-#x::
+; <Shift>-<Win>-X to run Command Prompt
+#+x::
 {
     Run cmd.exe
     Return
