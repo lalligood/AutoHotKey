@@ -176,4 +176,10 @@ SetTitleMatchMode 2
     Return
 }
 
+; <Ctrl>-<Shift>-s run last command as sshattach instead of vpnattach
+^+s::
+{
+    Send, {^}vpn{^}ssh`r
+    Return
+}
 ;** END WORK SPECIFIC SHORTCUTS **
