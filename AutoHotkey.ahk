@@ -86,7 +86,7 @@ SetTitleMatchMode 2
 ; <Win>-V to run GVim
 #v::
 {
-    Run "C:\Program Files (x86)\Vim\vim74\GVim.exe"
+    Run "C:\Program Files (x86)\Vim\vim80\GVim.exe"
     Return
 }
 
@@ -144,7 +144,9 @@ SetTitleMatchMode 2
     ;Send, tds0008@rx30.com`nnYFz3m9kl`n
     ;Send, tds0008@rx30.com`noZGa4n0lm`n
     ;Send, tds0008@rx30.com`npAHb5o1mn`n
-    Send, tds0008@rx30.com`nqBIc6p2no`n
+    ;Send, tds0008@rx30.com`nqBIc6p2no`n
+    ;Send, tds0008@rx30.com`nrCJd7q3op`n
+    Send, tds0008@rx30.com`nsDKe8r4pq`n
     Return
 }
 
