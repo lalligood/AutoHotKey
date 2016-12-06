@@ -119,6 +119,13 @@ SetTitleMatchMode 2
     Return
 }
 
+; <Ctrl>-<Shift>-' to download & install client
+^+'::
+{
+    Send, scp lalligood@12.164.113.103:~/txdata/CS/getrpt.sh . && getrpt.sh lalligood
+    Return
+}
+
 ; <Ctrl>-<Shift>-/ to login in rx30
 ^+/::
 {
@@ -147,7 +154,8 @@ SetTitleMatchMode 2
     ;Send, tds0008@rx30.com`nqBIc6p2no`n
     ;Send, tds0008@rx30.com`nrCJd7q3op`n
     ;Send, tds0008@rx30.com`nsDKe8r4pq`n
-    Send, tds0008@rx30.com`ntELf9s5qr`n
+    ;Send, tds0008@rx30.com`ntELf9s5qr`n
+    Send, tds0008@rx30.com`nuFMg0t6rs`n
     Return
 }
 
