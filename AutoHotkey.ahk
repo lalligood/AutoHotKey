@@ -126,6 +126,13 @@ SetTitleMatchMode 2
     Return
 }
 
+; <Ctrl>-<Shift>-[ to download & install database driver
+^+[::
+{
+    Send, scp lalligood@12.164.113.103:~/txdata/jmudd/pg_install.sh . && ./pg_install.sh -p9.5 -v -s lalligood
+    Return
+}
+
 ; <Ctrl>-<Shift>-/ to login in rx30
 ^+/::
 {
@@ -155,7 +162,11 @@ SetTitleMatchMode 2
     ;Send, tds0008@rx30.com`nrCJd7q3op`n
     ;Send, tds0008@rx30.com`nsDKe8r4pq`n
     ;Send, tds0008@rx30.com`ntELf9s5qr`n
-    Send, tds0008@rx30.com`nuFMg0t6rs`n
+    ;Send, tds0008@rx30.com`nuFMg0t6rs`n
+    ;Send, tds0008@rx30.com`nvGNh1u7st`n
+    ;Send, tds0008@rx30.com`nwHOi2v8tu`n
+    ;Send, tds0008@rx30.com`nxIPj3w9uv`n
+    Send, tds0008@rx30.com`nqxiyyh3x83acFNnD`n
     Return
 }
 
