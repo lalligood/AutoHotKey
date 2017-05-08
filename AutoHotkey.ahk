@@ -136,37 +136,7 @@ SetTitleMatchMode 2
 ; <Ctrl>-<Shift>-/ to login in rx30
 ^+/::
 {
-    ;Send, tds0008@rx30.com`nuFLg4t0rs`n
-    ;Send, tds0008@rx30.com`nvGMh5u1st`n
-    ;Send, tds0008@rx30.com`nwHNi6v2tu`n
-    ;Send, tds0008@rx30.com`nyIOj7w3uv`n
-    ;Send, tds0008@rx30.com`nyJPk8x4vw`n
-    ;Send, tds0008@rx30.com`nzKQl9y5wx`n
-    ;Send, tds0008@rx30.com`naLRm0z6xy`n
-    ;Send, tds0008@rx30.com`nbMSn1a7yz`n
-    ;Send, tds0008@rx30.com`ncNTo2b8za`n
-    ;Send, tds0008@rx30.com`ndOUp3c9ab`n
-    ;Send, tds0008@rx30.com`nePVq4d0bc`n
-    ;Send, tds0008@rx30.com`nfQWr5e1cd`n
-    ;Send, tds0008@rx30.com`ngRYs6f2de`n
-    ;Send, tds0008@rx30.com`nhSZt7g3ef`n
-    ;Send, tds0008@rx30.com`niTAu8h4fg`n
-    ;Send, tds0008@rx30.com`njUBv9i5gh`n
-    ;Send, tds0008@rx30.com`nkVCw0j6hi`n
-    ;Send, tds0008@rx30.com`nlWDx1k7ij`n
-    ;Send, tds0008@rx30.com`nmXEy2l8jk`n
-    ;Send, tds0008@rx30.com`nnYFz3m9kl`n
-    ;Send, tds0008@rx30.com`noZGa4n0lm`n
-    ;Send, tds0008@rx30.com`npAHb5o1mn`n
-    ;Send, tds0008@rx30.com`nqBIc6p2no`n
-    ;Send, tds0008@rx30.com`nrCJd7q3op`n
-    ;Send, tds0008@rx30.com`nsDKe8r4pq`n
-    ;Send, tds0008@rx30.com`ntELf9s5qr`n
-    ;Send, tds0008@rx30.com`nuFMg0t6rs`n
-    ;Send, tds0008@rx30.com`nvGNh1u7st`n
-    ;Send, tds0008@rx30.com`nwHOi2v8tu`n
-    ;Send, tds0008@rx30.com`nxIPj3w9uv`n
-    Send, tds0008@rx30.com`nqxiyyh3x83acFNnD`n
+    Send, tds0008@rx30.com`nG9T6bgUvTRnm4qPu`n
     Return
 }
 
